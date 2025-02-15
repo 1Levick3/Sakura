@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Sour Gummy', sans-serif;
+}
+
+.sakura-step {
+    padding: 10px;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    background: rgba(255, 0, 255, 0.2); 
+    color: #ff00ff; 
+}
+  
+.current-step {
+    background: #00FF9F; 
+    font-weight: bold;
+    color: black;
+    border-left: 5px solid #ff00ff; 
+}
+
+body {
+    background-color: #2e003e; 
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    color: #fff; 
+    margin: 0;
+    padding: 0;
+}
+
+.sakura-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sakura-map {
+    width: 90%;
+    height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(255, 0, 255, 0.6); 
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.6); 
+}
+
+.sakura-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.sakura-input {
+    padding: 12px;
+    width: 240px;
+    border-radius: 8px;
+    border: 1px solid #ff00ff; 
+    background-color: #2e003e;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sakura-button {
+    padding: 12px;
+    cursor: pointer;
+    background-color: #8d00ff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.sakura-button:hover {
+    background-color: #ff00ff; 
+    box-shadow: 0px 0px 10px #ff00ff; 
+}
+
+.sakura-direction-btn {
+    background-color: #ff00ff;
+}
+
+.sakura-steps {
+    background: rgba(0, 0, 0, 0.6);
+    color: #ff00ff; 
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin-top: 10px;
+    width: 90%;
+    box-shadow: 0px 2px 10px rgba(255, 0, 255, 0.6); 
+    font-size: 16px;
+    font-weight: 500;
+}
