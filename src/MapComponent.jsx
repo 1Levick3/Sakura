@@ -120,7 +120,7 @@ function MapComponent() {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyAwBikLCjx5McINt2z5Ik-RsH3RILY0ke8" libraries={libraries} preventGoogleFonts>
+    <LoadScript googleMapsApiKey="AIzaS" libraries={libraries} preventGoogleFonts>
       <div className="sakura-container">
         <div className="sakura-map">
           <GoogleMap mapContainerStyle={mapContainerStyle} center={searchLocation || currentLocation || { lat: 20, lng: 78 }} zoom={14} onLoad={(map) => setMap(map)}>
